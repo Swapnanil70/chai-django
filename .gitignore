@@ -1,0 +1,23 @@
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+env/
+venv/
+.chai_django/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secret settings
+.env
