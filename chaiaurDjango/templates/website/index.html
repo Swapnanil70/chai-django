@@ -1,15 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Django and Chai</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-</head>
-<body>
-    <h1>
-        Hello Django and Chai
-    </h1>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    <h1 class="bg-red-500 text-7xl">Chai aur Code | Home Page</h1>
+    <p class="text-center w-20 bg-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur id exercitationem impedit repudiandae minus cum reiciendis autem quae sed. Iusto mollitia dolores dolore repudiandae asperiores iste exercitationem obcaecati! Saepe.</p>
+{% endblock %}
